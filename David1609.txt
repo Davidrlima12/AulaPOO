@@ -1,0 +1,3 @@
+1- As outras classes não são inicializadas porque não possuem o parâmetro dado pela classe Xadrez.
+
+2- A classe Jogo tem um construtor cujo parâmetro é "int i". A classe JogoDeTabuleiro extende da classe Jogo e tem um construtor cujo parâmetro é "int i", dentro dele existe o comando "super(i);", mostrando para o compilador que o parâmetro deste método construtor é o parâmetro de entrada do construtor da classe Jogo. E, por fim, a classe Xadrez extende da classe JogoDeTabuleiro e tem um construtor sem parâmetro, mas dentro dele há o comando "super(1);", que faz uma inserção de um int no que seria o parâmetro do construtor da classe JogoDeTabuleiro que sua vez o torna parâmetro do construtor da classe Jogo.
